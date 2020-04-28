@@ -1,0 +1,24 @@
+.main__title {
+  background-image: url(/img/apple-691282_1920.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  font-size: 100px;
+}
+
+.menu {
+  text-decoration: none !important;
+}
+
+.profile__image {
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.portfolio__link {
+  text-decoration: none !important;
+}
