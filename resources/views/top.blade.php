@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <link href="/css/top.css" rel="stylesheet" type="text/css">
   <title>Kojima's HP</title>
 </head>
@@ -23,7 +24,13 @@
     <div class="row">
       <h2 class="profile col-12 text-center my-5">Profile</h2>
       <div class="d-flex col-12">
-        <div class="profile__content col-6">1991年5月29日生まれ 東京都出身。<br>趣味は<br>・英語学習（毎日オンライン英会話を継続中）<br>・読書（年間150冊読んだことも。最近は技術本を読み漁る）<br>・旅行（海外旅行が好き、アメリカ、インドネシア、ペルーなど）<br>・筋トレ（過去にベストボディジャパンに出場した経験あり）<br>2015~2019 東京消防庁消防官<br>2019~ エンジニアへ</div>
+        <div class="profile__content col-6">1991年5月29日生まれ 東京都出身。<br>趣味は<br>・英語学習（毎日オンライン英会話を継続中）<br>・読書（年間150冊読んだことも。最近は技術本を読み漁る）<br>・旅行（海外旅行が好き、アメリカ、インドネシア、ペルーなど）<br>・筋トレ（過去にベストボディジャパンに出場した経験あり）<br>2015~2019 東京消防庁消防官<br>2019~ エンジニアへ
+          <div class="sns mt-5">
+            <a href="https://twitter.com/tetsuyakojima86"><i class="fab fa-twitter-square mx-2"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100015453796123"><i class="fab fa-facebook-square mx-2"></i></a>
+            <a href="https://github.com/gangelion"><i class="fab fa-github-square mx-2"></i></a>
+          </div>
+        </div>
         <div class="col-6 d-flex justify-content-center">
           <img class="profile__image" src="{{ asset('img/T1MLERC4C-UR31TJGLT-bffc2f115b74-512.jpg') }}" alt="プロフィール画像">
         </div>
