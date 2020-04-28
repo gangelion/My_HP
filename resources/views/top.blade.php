@@ -26,7 +26,7 @@
       <div class="d-flex">
         <div class="profile_content col-6">プロフィール内容</div>
         <div class="profile_image col-6">
-          <img src="storage/app/public/T1MLERC4C-UR31TJGLT-bffc2f115b74-512.jpg" alt="image">
+          <img src="{{ asset('img/T1MLERC4C-UR31TJGLT-bffc2f115b74-512.jpg') }}" alt="image" style="width: 300px; height: 300px; border-radius: 5px;">
         </div>
       </div>
     </div>
