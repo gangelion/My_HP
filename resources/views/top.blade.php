@@ -13,16 +13,16 @@
   <div class="container">
     <div class="row">
       <div class="menu__list col-12 d-flex text-center my-5">
-        <a href="#" class="menu col-2 text-center">Profile</a>
-        <a href="#" class="menu col-2 text-center">Portfolio</a>
-        <a href="#" class="menu col-2 text-center">Blog</a>
-        <a href="#" class="menu col-2 text-center">Skill</a>
+        <a href="#profile" class="menu col-2 text-center">Profile</a>
+        <a href="#portfolio" class="menu col-2 text-center">Portfolio</a>
+        <a href="#blog" class="menu col-2 text-center">Blog</a>
+        <a href="#skill" class="menu col-2 text-center">Skill</a>
         <a href="https://github.com/gangelion" class="menu col-2 text-center">Github</a>
-        <a href="#" class="menu col-2 text-center">Contact</a>
+        <a href="#contact" class="menu col-2 text-center">Contact</a>
       </div>
     </div>
     <div class="row">
-      <h2 class="profile col-12 text-center my-5">Profile</h2>
+      <h2 class="profile col-12 text-center my-5" id="profile">Profile</h2>
       <div class="d-flex col-12">
         <div class="profile__content col-6">1991年5月29日生まれ 東京都出身。<br>趣味は<br>・英語学習（毎日オンライン英会話を継続中）<br>・読書（年間150冊読んだことも。最近は技術本を読み漁る）<br>・旅行（海外旅行が好き、アメリカ、インドネシア、ペルーなど）<br>・筋トレ（過去にベストボディジャパンに出場した経験あり）<br>2015~2019 東京消防庁消防官<br>2019~ エンジニアへ
           <div class="sns mt-5">
@@ -37,7 +37,7 @@
       </div>
     </div>
     <div class="row">
-      <h2 class="portfolio col-12 text-center my-5">Portfolio</h2>
+      <h2 class="portfolio col-12 text-center my-5" id="portfolio">Portfolio</h2>
       <h3 class="col-12 text-center mb-5">firstskillapp
         <a class="portfolio__link" href="https://firstskillapp.com">https://firstskillapp.com</a>
       </h3>
@@ -46,25 +46,25 @@
       <img class="col-4" src="{{ asset('img/screencapture-localhost-3000-plans-new-2020-03-22-23_00_51.png') }}" alt="ポートフォリオ">
     </div>
     <div class="row">
-      <h2 class="blog col-12 text-center my-5">Blog</h2>
+      <h2 class="blog col-12 text-center my-5" id="blog">Blog</h2>
       <div class="blog__list col-12 d-flex text-center">
         <div class="article col-6">ブログ記事1</div>
         <div class="article col-6">ブログ記事2</div>
       </div>
     </div>
     <div class="row">
-      <h2 class="skill col-12 text-center my-5">Skill</h2>
+      <h2 class="skill col-12 text-center my-5" id="skill">Skill</h2>
       <div class="skill__list">
-        <div>Ruby on Rails</div>
-        <div>Laravel</div>
-        <div>JQuery</div>
-        <div>Docker</div>
-        <div>CircleCI</div>
-        <div>AWS</div>
+        <div>Ruby on Rails<i class="fas fa-star"></i></div>
+        <div>Laravel<i class="fas fa-star-half"></i></div>
+        <div>JQuery<i class="fas fa-star-half"></i></div>
+        <div>Docker<i class="fas fa-star"></i></div>
+        <div>CircleCI<i class="fas fa-star-half"></i></div>
+        <div>AWS<i class="fas fa-star"></i></div>
       </div>
     </div>
     <div class="row">
-      <h2 class="contact col-12 text-center my-5">Contact</h2>
+      <h2 class="contact col-12 text-center my-5" id="contact">Contact</h2>
     </div>
     <small class="col-12 d-flex justify-content-center py-5">&copy; 2020 tetsuya kojima</small>
   </div>
