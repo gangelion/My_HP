@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <link href="/css/top.css" rel="stylesheet" type="text/css">
-  <title>Kojima's HP</title>
-</head>
-<body>
+@extends('layouts.application')
+@section('title', "Kojima's HP")
   <h1 class="main__title col-12 text-center mb-5">Hello,World!</h1>
   <div class="container">
     <div class="row">
@@ -51,6 +42,9 @@
         <div class="article col-6">ブログ記事1</div>
         <div class="article col-6">ブログ記事2</div>
       </div>
+      <div class="col-12 text-center">
+        <a href="/articles">ブログ一覧へ</a>
+      </div>
     </div>
     <div class="row">
       <h2 class="skill col-12 text-center my-5" id="skill">Skill</h2>
@@ -68,5 +62,3 @@
     </div>
     <small class="col-12 d-flex justify-content-center py-5">&copy; 2020 tetsuya kojima</small>
   </div>
-</body>
-</html>
