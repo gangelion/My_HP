@@ -17,7 +17,7 @@
         <a href="#portfolio" class="menu col-2 text-center">Portfolio</a>
         <a href="#blog" class="menu col-2 text-center">Blog</a>
         <a href="#skill" class="menu col-2 text-center">Skill</a>
-        <a href="https://github.com/gangelion" class="menu col-2 text-center">Github</a>
+        <a href="https://github.com/gangelion" class="menu col-2 text-center" target="_blank">Github</a>
         <a href="#contact" class="menu col-2 text-center">Contact</a>
       </div>
     </div>
@@ -26,9 +26,9 @@
       <div class="d-flex col-12">
         <div class="profile__content col-6">1991年5月29日生まれ 東京都出身。<br>趣味は<br>・英語学習（毎日オンライン英会話を継続中）<br>・読書（年間150冊読んだことも。最近は技術本を読み漁る）<br>・旅行（海外旅行が好き、アメリカ、インドネシア、ペルーなど）<br>・筋トレ（過去にベストボディジャパンに出場した経験あり）<br>2015~2019 東京消防庁消防官<br>2019~ エンジニアへ
           <div class="sns mt-5">
-            <a href="https://twitter.com/tetsuyakojima86"><i class="fab fa-twitter-square mx-2"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=100015453796123"><i class="fab fa-facebook-square mx-2"></i></a>
-            <a href="https://github.com/gangelion"><i class="fab fa-github-square mx-2"></i></a>
+            <a href="https://twitter.com/tetsuyakojima86" target="_blank"><i class="fab fa-twitter-square mx-2"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100015453796123" target="_blank"><i class="fab fa-facebook-square mx-2"></i></a>
+            <a href="https://github.com/gangelion" target="_blank"><i class="fab fa-github-square mx-2"></i></a>
           </div>
         </div>
         <div class="col-6 d-flex justify-content-center">
@@ -39,7 +39,7 @@
     <div class="row">
       <h2 class="portfolio col-12 text-center my-5" id="portfolio">Portfolio</h2>
       <h3 class="col-12 text-center mb-5">firstskillapp
-        <a class="portfolio__link" href="https://firstskillapp.com">https://firstskillapp.com</a>
+        <a class="portfolio__link" href="https://firstskillapp.com" target="_blank">https://firstskillapp.com</a>
       </h3>
       <img class="col-4" src="{{ asset('img/screencapture-18-178-33-110-2020-03-27-11_45_19.png') }}" alt="ポートフォリオ">
       <img class="col-4" src="{{ asset('img/screencapture-18-178-33-110-users-2020-03-27-11_47_18.png') }}" alt="ポートフォリオ">
