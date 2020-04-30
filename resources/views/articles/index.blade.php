@@ -7,8 +7,8 @@
   <a href="/articles/create">新規作成</a>
 </div>
   @foreach ($articles as $article)
-    <h4>{{ $article->title }}
-    <p>{{ $article->content }}</h4>
+    <h4>{{ $article->title }}</h4>
+    <p>{{ $article->content }}</p>
     <a href="/articles/{{ $article->id }}">詳細を表示</a>
     <a href="/articles/{{ $article->id }}/edit">編集する</a>
     <form action="/articles/{{ $article->id }}" method="post">
