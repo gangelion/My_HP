@@ -9,6 +9,8 @@
   <title>@yield('title')</title>
 </head>
 <body>
+  <script src="{{ asset('/js/app.js') }}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   @yield('content')
 </body>
 </html>

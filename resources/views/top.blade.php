@@ -1,5 +1,6 @@
 @extends('layouts.application')
 @section('title', "Kojima's HP")
+@section('content')
   <h1 class="main__title col-12 text-center mb-5">Hello,World!</h1>
   <div class="container">
     <div class="row">
@@ -62,3 +63,4 @@
     </div>
     <small class="col-12 d-flex justify-content-center py-5">&copy; 2020 tetsuya kojima</small>
   </div>
+@endsection
