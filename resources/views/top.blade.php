@@ -1,6 +1,7 @@
 @extends('layouts.application')
 @section('title', "Kojima's HP")
 @section('content')
+<div id="app">
   <h1 class="main__title col-12 text-center mb-5">Hello,World!</h1>
   <div class="container">
     <div class="row">
@@ -63,4 +64,28 @@
     </div>
     <small class="col-12 d-flex justify-content-center py-5">&copy; 2020 tetsuya kojima</small>
   </div>
+  <v-move-to-top class="move_to_top_icon"></v-move-to-top>
+</div>
+  <script>
+    Vue.component('v-move-to-top', {
+      template: `<i class="fas fa-arrow-circle-up" @click="moveToTop"></i>`,
+      methods: {
+        moveToTop() {
+          const duration = 300;
+          const interval = 30;
+          const step = -window.scrollY / Math.ceil(duration / interval);
+          const timer = setInterval(() => {
+            window.scrollBy(0, step);
+            if(window.scrollY <= 0) {
+              clearInterval(timer);
+            }
+          }, interval);
+        }
+      }
+    });
+
+    new Vue({
+      el: '#app'
+    });
+  </script>
 @endsection

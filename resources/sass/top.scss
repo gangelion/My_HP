@@ -64,4 +64,15 @@
   color: #fdca00;
 }
 
+.move_to_top_icon {
+  position: fixed;
+  color: #13b1c0;
+  font-size: 70px;
+  right: 100px;
+  bottom: 100px;
+}
 
+.move_to_top_icon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
