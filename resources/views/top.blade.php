@@ -68,7 +68,19 @@
 </div>
   <script>
     Vue.component('v-move-to-top', {
-      template: `<i class="fas fa-arrow-circle-up" @click="moveToTop"></i>`,
+      data() {
+        return {
+          show: false
+        };
+      },
+      template: `<transition name="fade">
+                  <i class="fas fa-arrow-circle-up" v-if="show" @click="moveToTop"></i>
+                </transition>`,
+                mounted() {
+                  window.addEventListener('scroll', () => {
+                    this.show = (window.scrollY > 150);
+                  });
+                },
       methods: {
         moveToTop() {
           const duration = 300;
